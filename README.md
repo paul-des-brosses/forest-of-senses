@@ -51,14 +51,34 @@ compression that drives the entire interaction.*
 
 > The environment runs on a specific research device (see [Why this repo
 > exists](#why-this-repo-exists)) and cannot be launched from this
-> repository. Captures of the real-time behaviour:
+> repository. Captures of the real-time behaviour are provided as MP4
+> because **audio is part of the feedback loop**, on equal footing with
+> visuals — the low-pass filter cutoff, the harmony of triggered chords,
+> and the tempo of familiar music are what actually drive the motor
+> adaptation. Use the in-player controls to unmute.
 
-| Phase                         | Capture                                                    |
-|-------------------------------|------------------------------------------------------------|
-| Phase 0 — free exploration    | *(to be added — `docs/media/demo_phase0.gif`)*             |
-| Phase 1 — rotation & volume   | *(to be added — `docs/media/demo_phase1.gif`)*             |
-| Phase 2 — isolation & chords  | *(to be added — `docs/media/demo_phase2.gif`)*             |
-| Phase 3 — sub-maximal target  | *(to be added — `docs/media/demo_phase3.gif`)*             |
+#### Phase 0 — free exploration
+*(to be added — `docs/media/demo_phase0.mp4`)*
+
+<!-- <video src="docs/media/demo_phase0.mp4" controls width="720"></video> -->
+
+#### Phase 1 — rotation & volume
+*(to be added — `docs/media/demo_phase1.mp4`)*
+
+<!-- <video src="docs/media/demo_phase1.mp4" controls width="720"></video> -->
+
+#### Phase 2 — isolation & chords
+*(to be added — `docs/media/demo_phase2.mp4`)*
+
+<!-- <video src="docs/media/demo_phase2.mp4" controls width="720"></video> -->
+
+#### Phase 3 — sub-maximal target
+*(to be added — `docs/media/demo_phase3.mp4`)*
+
+<!-- <video src="docs/media/demo_phase3.mp4" controls width="720"></video> -->
+
+> Once each MP4 lands in `docs/media/`, uncomment the corresponding
+> `<video>` line and the clip plays inline on GitHub.
 
 ---
 
@@ -106,6 +126,28 @@ flowchart LR
 ```
 
 Detailed diagram and state machine: [`docs/architecture.md`](docs/architecture.md).
+
+### Narrative progression — scenery as the only progression signal
+
+The environment carries a deliberate artistic parallel with the
+rehabilitation journey. There is no UI, no score, no timer, no text: the
+**scenery itself** signals progression, mirroring the slow, non-linear
+return of function that characterises post-stroke recovery.
+
+- **Phase 0 — embers.** Winter night, dim light; a dormant campfire
+  awaits a first spark of voluntary activity.
+- **Phase 1 — fire relights, stars emerge.** The campfire grows with
+  sustained effort, and a starry sky appears as the user starts rotating
+  between fingers to circumvent virtual fatigue.
+- **Phase 2 — day breaks.** Dawn unfolds as the user begins isolating
+  individual fingers and modulating amplitude; harmonic chords replace
+  single notes.
+- **Phase 3 — snow melts.** When the user maintains the invisible
+  sub-maximal target, the snowfield around the scene gradually thaws —
+  the strongest and slowest reward of the session.
+
+The user is never told this evolution is tied to their performance. It is
+read, not explained.
 
 ---
 
@@ -178,6 +220,22 @@ All six figures: [`analysis/figures/`](analysis/figures/).
 ---
 
 ## Current status and roadmap
+
+### Scope of V1 — this is a research prototype
+
+The deliverable of this development effort is **the scientific manuscript**,
+not a polished game. V1 was built to make a well-controlled experimental
+protocol run reliably and to produce analyzable behavioural data on 15
+subjects. Every technical choice — hard-coded scenery, minimal shaders,
+fixed 4-phase sequence, no main menu, no save system — reduces to that
+single goal.
+
+Aesthetic refinement is intentionally kept minimal at this stage: what is
+submitted for evaluation is the experimental design, the behavioural data
+it produced, and the engineering underneath — not the production value of
+the environment.
+
+### Roadmap
 
 - [x] V1 research prototype (Unity + Dextrain) functional.
 - [x] Pilot study on 15 healthy subjects.
