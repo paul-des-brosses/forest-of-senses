@@ -24,8 +24,8 @@ Exploration as a Vector for Implicit Motor Adaptation*) is available in
 
 ### Reading this repo in 60 seconds
 
-1. Look at the GIFs in [the Demo section](#demo) to see what the user
-   experiences.
+1. Watch the MP4 clips in [the Demo section](#demo) to see what the user
+   experiences (audio matters — unmute).
 2. Skim [`docs/architecture.md`](docs/architecture.md) for the system
    diagram and phase state machine.
 3. Open [`unity/Scripts/Phase0_manager.cs`](unity/Scripts/Phase0_manager.cs)
@@ -56,29 +56,33 @@ compression that drives the entire interaction.*
 > visuals — the low-pass filter cutoff, the harmony of triggered chords,
 > and the tempo of familiar music are what actually drive the motor
 > adaptation. Use the in-player controls to unmute.
+>
+> **Time-lapse disclaimer.** An original session lasts approximately
+> **10 minutes** per subject. The clips below are time-compressed to
+> ~15 s each so that the ambient evolution of the scene (campfire
+> lighting, starry night, daybreak, snow melting) is visible at a glance.
+> Absolute force levels, fatigue dynamics and accuracy statistics in the
+> paper are of course measured on the real, uncompressed session.
 
 #### Phase 0 — free exploration
-*(to be added — `docs/media/demo_phase0.mp4`)*
 
-<!-- <video src="docs/media/demo_phase0.mp4" controls width="720"></video> -->
+<video src="docs/media/demo_phase0.mp4" controls width="720"></video>
 
 #### Phase 1 — rotation & volume
-*(to be added — `docs/media/demo_phase1.mp4`)*
 
-<!-- <video src="docs/media/demo_phase1.mp4" controls width="720"></video> -->
+<video src="docs/media/demo_phase1.mp4" controls width="720"></video>
 
 #### Phase 2 — isolation & chords
-*(to be added — `docs/media/demo_phase2.mp4`)*
 
-<!-- <video src="docs/media/demo_phase2.mp4" controls width="720"></video> -->
+<video src="docs/media/demo_phase2.mp4" controls width="720"></video>
 
 #### Phase 3 — sub-maximal target
-*(to be added — `docs/media/demo_phase3.mp4`)*
 
-<!-- <video src="docs/media/demo_phase3.mp4" controls width="720"></video> -->
+*The audio track contains gameplay-critical tempo-modulated piano
+pieces; see [Music used in Phase 3](#music-used-in-phase-3--attribution-and-research-use)
+for the composer attribution and the rights-use framing.*
 
-> Once each MP4 lands in `docs/media/`, uncomment the corresponding
-> `<video>` line and the clip plays inline on GitHub.
+<video src="docs/media/demo_phase3.mp4" controls width="720"></video>
 
 ---
 
@@ -317,6 +321,63 @@ A formal citation entry will be added to this repository once the
 publication pathway for the manuscript is confirmed. In the meantime,
 references to this project should point to the manuscript in
 [`docs/paper_EN.pdf`](docs/paper_EN.pdf).
+
+## Music used in Phase 3 — attribution and research use
+
+Phase 3 of Forest of Senses uses **familiar piano music** as a real-time
+biofeedback signal. The playback tempo is coupled to sub-maximal accuracy
+(the rhythm converges back to the original tempo when the target force is
+held) and a low-pass filter progressively opens as accuracy increases.
+The mechanic *requires* the user to recognise the piece: without prior
+familiarity, tempo distortion and spectral attenuation cannot be
+perceived as a motor-reward signal. This is the neurophysiological
+reason the study relies on well-known scores rather than abstract audio.
+
+To retain full control over the audio signal chain — per-note MIDI
+events, no pre-rendered tempo, direct filter modulation — the five
+pieces were re-performed and sequenced by the author in MIDI. The
+recordings carried in this repository are therefore **original
+performances by Paul des Brosses**. The underlying compositions remain
+the intellectual property of their respective rights holders and are
+reproduced here only in the interactive, tempo-modulated form that the
+experimental protocol requires.
+
+| Piece                          | Composer (year)                                         | Composition rights         |
+|--------------------------------|---------------------------------------------------------|----------------------------|
+| Für Elise, WoO 59              | Ludwig van Beethoven (1810)                             | Public domain              |
+| River Flows in You             | Yiruma (2001)                                           | © Stomp Music              |
+| Hedwig's Theme (Harry Potter)  | John Williams (1999)                                    | © Warner Chappell Music    |
+| Transformers Main Theme        | Steve Jablonsky (2007) / Ford Kinder, Anne Bryant (1984)| © Paramount / Hasbro       |
+| Time (Inception)               | Hans Zimmer (2010)                                      | © Warner Bros              |
+
+### Basis for inclusion
+
+This repository is published as a **non-commercial research artifact**
+documenting the engineering and scientific work behind the *Silent
+Guidance* study. No revenue is derived from the music, the videos, the
+source code or the accompanying manuscript. The inclusion of the Phase 3
+capture is made on the following basis:
+
+- **Transformative use.** The compositions are not played back as
+  recordings but operated on in real time as a closed-loop biofeedback
+  signal whose tempo and spectral content are driven by the user's
+  biomechanics. The artistic experience heard in the demo is
+  categorically different from the original work.
+- **Necessity.** The *familiarity* of the piece is an independent
+  variable of the paradigm (auditory recognition is a prerequisite for
+  tempo-mismatch detection and for the reward value of tempo recovery).
+  Substituting unknown music would change that variable and break the
+  reproducibility of the study.
+- **Limited extent.** The demo clip shows approximately 15 s of
+  tempo-modulated audio per piece, sufficient to illustrate the
+  mechanic, insufficient to substitute for the original.
+
+### Good-faith takedown policy
+
+If you are a rights holder, or represent one, of any of the listed
+compositions and object to the presence of the Phase 3 capture in this
+repository, please contact the author at `pdesbrosses@outlook.fr`. The
+affected clip will be taken down without dispute.
 
 ## License
 
