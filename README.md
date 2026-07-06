@@ -1,14 +1,16 @@
-# Forest of Senses — V1
+# Forest of Senses
 
 > An interactive audio-visual environment that induces measurable motor
 > adaptation **without a single instruction**, controlled by a five-finger
 > isometric force sensor. Research prototype for post-stroke
 > neurorehabilitation.
 
-**Status** — V1 research prototype. Pilot study completed on 15 healthy
-subjects. Accompanying manuscript (*Study on Silent Guidance: Free
-Exploration as a Vector for Implicit Motor Adaptation*) is available in
-[`docs/paper_EN.pdf`](docs/paper_EN.pdf).
+📄 A full research manuscript (*Study on Silent Guidance: Free Exploration
+as a Vector for Implicit Motor Adaptation*) describing the protocol, cohort
+and statistical results is available: [`paper_EN.pdf`](docs/paper_EN.pdf).
+
+**Status** — Research prototype. Pilot study completed on 15 healthy
+subjects.
 
 ### Headline numbers
 
@@ -66,15 +68,15 @@ compression that drives the entire interaction.*
 
 #### Phase 0 — free exploration
 
-<video src="docs/media/demo_phase0.mp4" controls width="720"></video>
+<!-- VIDEO_PLACEHOLDER: Phase 0 — free exploration — drag-drop du MP4 dans l'éditeur web GitHub -->
 
 #### Phase 1 — rotation & volume
 
-<video src="docs/media/demo_phase1.mp4" controls width="720"></video>
+<!-- VIDEO_PLACEHOLDER: Phase 1 — rotation & volume — drag-drop du MP4 dans l'éditeur web GitHub -->
 
 #### Phase 2 — isolation & chords
 
-<video src="docs/media/demo_phase2.mp4" controls width="720"></video>
+<!-- VIDEO_PLACEHOLDER: Phase 2 — isolation & chords — drag-drop du MP4 dans l'éditeur web GitHub -->
 
 #### Phase 3 — sub-maximal target
 
@@ -82,7 +84,7 @@ compression that drives the entire interaction.*
 pieces; see [Music used in Phase 3](#music-used-in-phase-3--attribution-and-research-use)
 for the composer attribution and the rights-use framing.*
 
-<video src="docs/media/demo_phase3.mp4" controls width="720"></video>
+<!-- VIDEO_PLACEHOLDER: Phase 3 — sub-maximal target — drag-drop du MP4 dans l'éditeur web GitHub -->
 
 ---
 
@@ -225,7 +227,7 @@ All six figures: [`analysis/figures/`](analysis/figures/).
 
 ## Current status and roadmap
 
-### Scope of V1 — this is a research prototype
+### Scope — this is a research prototype
 
 The deliverable of this development effort is **the scientific manuscript**,
 not a polished game. V1 was built to make a well-controlled experimental
@@ -302,8 +304,8 @@ ship a game.
 
 ## Author
 
-**Paul des Brosses** — engineering student (A4, ESILV, Paris–La Défense),
-specialising in interactive systems and biomechanics-oriented software.
+Paul Des Brosses — M1 Creative Technology student, ESILV (Paris)
+GitHub: https://github.com/paul-des-brosses · LinkedIn: https://www.linkedin.com/in/paul-des-brosses/
 
 Research conducted at **IFT — Institut For The Future**, the ESILV
 research laboratory, under the supervision of:
@@ -312,6 +314,12 @@ research laboratory, under the supervision of:
 - **Xiao Xiao** (IFT / ESILV)
 
 Contact: `pdesbrosses@outlook.fr`
+
+This repository is part of a public portfolio at the intersection of hardware, software and applied AI. Other projects:
+
+- [Bocage Digital Twin](https://github.com/paul-des-brosses/bocage-digital-twin) — instrumented digital twin of a Norman bocage countryside (Unity 6 WebGL)
+- [Applied Fox](https://github.com/paul-des-brosses/applied-fox) — local multi-agent AI system for R&D technology watch
+- [Lightning TDOA Simulator](https://github.com/paul-des-brosses/lightning-tdoa-simulator) — simulation of a 3-station VLF lightning detection network
 
 ---
 
