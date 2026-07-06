@@ -68,15 +68,29 @@ compression that drives the entire interaction.*
 
 #### Phase 0 — free exploration
 
-<!-- VIDEO_PLACEHOLDER: Phase 0 — free exploration — drag-drop du MP4 dans l'éditeur web GitHub -->
+
+
+https://github.com/user-attachments/assets/fdd02d83-c6bc-4c7d-b7d8-e9d4f9ac922c
+
+
 
 #### Phase 1 — rotation & volume
 
-<!-- VIDEO_PLACEHOLDER: Phase 1 — rotation & volume — drag-drop du MP4 dans l'éditeur web GitHub -->
+
+
+
+https://github.com/user-attachments/assets/a7e4ec12-7917-4ca1-8634-feb9d9eec0a6
+
+
+
 
 #### Phase 2 — isolation & chords
 
-<!-- VIDEO_PLACEHOLDER: Phase 2 — isolation & chords — drag-drop du MP4 dans l'éditeur web GitHub -->
+
+
+https://github.com/user-attachments/assets/058d13e7-f508-4518-8331-704015679b25
+
+
 
 #### Phase 3 — sub-maximal target
 
@@ -84,7 +98,11 @@ compression that drives the entire interaction.*
 pieces; see [Music used in Phase 3](#music-used-in-phase-3--attribution-and-research-use)
 for the composer attribution and the rights-use framing.*
 
-<!-- VIDEO_PLACEHOLDER: Phase 3 — sub-maximal target — drag-drop du MP4 dans l'éditeur web GitHub -->
+
+
+https://github.com/user-attachments/assets/70f43882-670a-402f-b698-422592a33ad5
+
+
 
 ---
 
