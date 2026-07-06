@@ -11,7 +11,7 @@ Uploading demo_phase0.mp4…
 # Forest of Senses
 
 > An interactive audio-visual environment that induces measurable motor
-> adaptation **without a single instruction**, controlled by a five-finger
+> adaptation without a single instruction, controlled by a five-finger
 > isometric force sensor. Research prototype for post-stroke
 > neurorehabilitation.
 
@@ -64,10 +64,10 @@ compression that drives the entire interaction.*
 > The environment runs on a specific research device (see [Why this repo
 > exists](#why-this-repo-exists)) and cannot be launched from this
 > repository. Captures of the real-time behaviour are provided as MP4
-> because **audio is part of the feedback loop**, on equal footing with
-> visuals — the low-pass filter cutoff, the harmony of triggered chords,
-> and the tempo of familiar music are what actually drive the motor
-> adaptation. Use the in-player controls to unmute.
+> because audio is part of the feedback loop, on equal footing with
+> visuals. The low-pass filter cutoff, the harmony of triggered chords,
+> and the tempo of familiar music drive the motor adaptation. Use the
+> in-player controls to unmute.
 >
 > **Time-lapse disclaimer.** An original session lasts approximately
 > **10 minutes** per subject. The clips below are time-compressed to
@@ -237,13 +237,13 @@ All six figures: [`analysis/figures/`](analysis/figures/).
 
 ## Current status and roadmap
 
-### Scope — this is a research prototype
+### Scope: this is a research prototype
 
-The deliverable of this development effort is **the scientific manuscript**,
+The deliverable of this development effort is the scientific manuscript,
 not a polished game. V1 was built to make a well-controlled experimental
 protocol run reliably and to produce analyzable behavioural data on 15
-subjects. Every technical choice — hard-coded scenery, minimal shaders,
-fixed 4-phase sequence, no main menu, no save system — reduces to that
+subjects. Every technical choice (hard-coded scenery, minimal shaders,
+fixed 4-phase sequence, no main menu, no save system) serves that
 single goal.
 
 Aesthetic refinement is intentionally kept minimal at this stage: what is
@@ -282,7 +282,7 @@ the environment.
 
 ## Why this repo exists
 
-Forest of Senses V1 is **not a runnable project**, and by design.
+Forest of Senses V1 is not a runnable project, and by design.
 
 1. The interaction depends on the **Dextrain Manipulandum**, a research
    device. The accompanying driver (`DAQMANIPULANDUM.dll`) and its Unity
