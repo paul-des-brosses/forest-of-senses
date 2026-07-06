@@ -304,7 +304,7 @@ ship a game.
 
 ## Author
 
-Paul Des Brosses — M1 Creative Technology student, ESILV (Paris)
+Paul Des Brosses — R&D Engineer | Hardware / Software Integration | Creative Tech
 GitHub: https://github.com/paul-des-brosses · LinkedIn: https://www.linkedin.com/in/paul-des-brosses/
 
 Research conducted at **IFT — Institut For The Future**, the ESILV
